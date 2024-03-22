@@ -14,9 +14,20 @@ Grandes telas: acim de 1200px
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
+    main{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     section#login {
     width: 80vw;
     height: 270px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
    }
    section#login > div#imagem{
     float: left;
@@ -35,11 +46,23 @@ Grandes telas: acim de 1200px
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+    main{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
     section#login {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
         width: 950px;
         height: 350px;
+    }
 
+    div.item-1{
+        order: 2;
     }
 
     section#login > div#imagem {
